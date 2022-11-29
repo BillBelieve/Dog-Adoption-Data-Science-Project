@@ -1,0 +1,15 @@
+The model will be calculated with help of scikit-learn
+
+required steps:
+1) choose model - multiple regression.
+2) select model hyperparameters
+3) arrange data in feature matrix
+4) fit model to data
+5) apply model to inference and prediction problems.
+
+steps 1-4 will be used on a training set which is a subset of
+ the original dataset.
+
+ this data will be excluded from the prediction data.
+ step 5 will be done with the prediction data in the actual model.
+ 

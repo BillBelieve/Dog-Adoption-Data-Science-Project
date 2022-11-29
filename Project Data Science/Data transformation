@@ -1,0 +1,6 @@
+The data file i will be using contains 26 columns, and 722 rows of data.
+the data is in csv format such that i can have pandas read the data. 
+
+There are empty fields. And there are also columns that are of no use to me
+using pandas i will fill value or get rid of fields with no data.
+I will also get rid of the columns that provide no use.
