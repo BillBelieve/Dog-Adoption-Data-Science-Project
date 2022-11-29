@@ -5,17 +5,6 @@ There are empty fields. And there are also columns that are of no use to me
 using pandas i will fill value or get rid of fields with no data.
 I will also get rid of the columns that provide no use.
 
-in this process i will also determine what is Y and what is X
-Y will be the time spent in the rescue system (difference between entering and leaving)
-X will be multiple factors determining the succes of adoption
-I will have to perform F-test for significance.
-but i think that the factors that influence adoptability are:
-socialization (animals, children),
-attributes (neutered, house trained, declawed, special needs, shots current)
-
-I am eager to see if the breed and colour have any effect on the time spent in rescue system. 
-this i will have to infer from the statistics.
-
  The columns that i will drop are:
  ID                           - this is not useful to me
  organisation ID              - this is not useful to me
@@ -41,4 +30,26 @@ possible steps:
     - fill with 0
     - fill with another value
 
-s
+
+in this process i will also determine what is Y and what is X
+Y will be the time spent in the rescue system (difference between entering and leaving)
+X will be multiple factors determining the succes of adoption
+I will have to perform F-test for significance.
+but i think that the factors that influence adoptability are:
+socialization (animals, children),
+attributes (neutered, house trained, declawed, special needs, shots current)
+
+I am eager to see if the breed and colour have any effect on the time spent in rescue system.
+this i will have to infer from the statistics.
+
+another step i will have to do is transform the categorical data to the right format to be computed by the models. 
+
+When the dataframe is sufficiently transformed,
+there will be a selection between
+- test df
+and
+- model df
+this will be done with scikit-learn
+using x_train, x_test, y_train, y_test = train_test_split(x,y,test_size = 0.3, randomstate=42)
+
+after this step the data transformation is completed.
