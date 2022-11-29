@@ -7,9 +7,19 @@ required steps:
 4) fit model to data
 5) apply model to inference and prediction problems.
 
-steps 1-4 will be used on a training set which is a subset of
- the original dataset.
+from step 3 i will have 2 datasets,
+train data and test data.
 
- this data will be excluded from the prediction data.
- step 5 will be done with the prediction data in the actual model.
- 
+the train data is a subset of the actual data set.
+i will use roughly 30% of the test data to train the model.
+leaving 70% of the data to test.
+
+When the training model is finished, i will evaluate it.
+
+to evaluate the training we will use:
+
+mean squared error
+R2
+R2 adj
+
+these parameters can be calculated using the sklearn module.
