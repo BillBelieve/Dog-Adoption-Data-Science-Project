@@ -1,1 +1,20 @@
 
+The required steps are basically the same as in the test model
+
+required steps:
+1) choose model - multiple regression.
+2) select model hyperparameters
+3) arrange data in feature matrix
+4) fit model to data
+5) apply model to inference and prediction problems.
+
+only the data on which we apply the model is different.
+
+now we use the test data instead of the train data
+
+when we have the model ready, we need to evaluate it.
+
+To evaluate the model we will use
+R2
+R2 adj
+MSE mean squared error. 
