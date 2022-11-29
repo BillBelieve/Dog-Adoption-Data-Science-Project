@@ -1,6 +1,44 @@
 The data file i will be using contains 26 columns, and 722 rows of data.
-the data is in csv format such that i can have pandas read the data. 
+the data is in csv format such that i can have pandas read the data.
 
 There are empty fields. And there are also columns that are of no use to me
 using pandas i will fill value or get rid of fields with no data.
 I will also get rid of the columns that provide no use.
+
+in this process i will also determine what is Y and what is X
+Y will be the time spent in the rescue system (difference between entering and leaving)
+X will be multiple factors determining the succes of adoption
+I will have to perform F-test for significance.
+but i think that the factors that influence adoptability are:
+socialization (animals, children),
+attributes (neutered, house trained, declawed, special needs, shots current)
+
+I am eager to see if the breed and colour have any effect on the time spent in rescue system. 
+this i will have to infer from the statistics.
+
+ The columns that i will drop are:
+ ID                           - this is not useful to me
+ organisation ID              - this is not useful to me
+ URL                          - this is not useful to me
+ species                      - they are all dogs
+ organisation animal ID       - this is not useful to me
+ photo                        - Although they're very cute pictures,
+                                i will look at the raw data
+primary_photo_cropped         - this is not useful to me
+videos	                      - this is not useful to me
+distance	                  - this is not useful to me
+contact                       - this is not useful to me
+links                         - this is not useful to me
+
+to drop this data i will use:
+df.drop(['Column1', 'Column2', 'etc..'], axis=1, inplace=True)
+
+Next step would be to view all non values in the columns left and
+then determine what to do with them
+
+possible steps:
+    - drop data
+    - fill with 0
+    - fill with another value
+
+s
