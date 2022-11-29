@@ -22,6 +22,12 @@ links                         - this is not useful to me
 to drop this data i will use:
 df.drop(['Column1', 'Column2', 'etc..'], axis=1, inplace=True)
 
+There are some columns which are of use to me such as attributes
+which is in a JSON format.
+i will have to split this data in the df to be in a not JSON format
+i read on stack overflow that the following command might help me:
+df.join(df['JSON COLUMN'].apply(json.loads).apply(pd.Series))
+
 Next step would be to view all non values in the columns left and
 then determine what to do with them
 
@@ -42,7 +48,7 @@ attributes (neutered, house trained, declawed, special needs, shots current)
 I am eager to see if the breed and colour have any effect on the time spent in rescue system.
 this i will have to infer from the statistics.
 
-another step i will have to do is transform the categorical data to the right format to be computed by the models. 
+another step i will have to do is transform the categorical data to the right format to be computed by the models.
 
 When the dataframe is sufficiently transformed,
 there will be a selection between
@@ -51,5 +57,7 @@ and
 - model df
 this will be done with scikit-learn
 using x_train, x_test, y_train, y_test = train_test_split(x,y,test_size = 0.3, randomstate=42)
+
+
 
 after this step the data transformation is completed.
