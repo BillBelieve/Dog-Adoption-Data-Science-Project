@@ -24,9 +24,23 @@ df.drop(['Column1', 'Column2', 'etc..'], axis=1, inplace=True)
 
 There are some columns which are of use to me such as attributes
 which is in a JSON format.
+
 i will have to split this data in the df to be in a not JSON format
 i read on stack overflow that the following command might help me:
 df.join(df['JSON COLUMN'].apply(json.loads).apply(pd.Series))
+
+This has now proven to be more difficult as the data is not in a correct JSON
+format. The data lacks " before and " after the {} which is why the
+unloader cannot read it.
+
+I will have to make a custom parser to add "" before and after to
+make the unloader work properly.
+
+because of this difficulty i will drop breed and colour for Now
+as variables
+
+to make the outcome variable i will need to make a new variable which is
+time between animal in the shelter, and animal out of the shelter.
 
 Next step would be to view all non values in the columns left and
 then determine what to do with them

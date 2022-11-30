@@ -1,0 +1,8 @@
+to check if the variables at stakes have any
+explanatory power towards the outcome variable,
+we may use a quick test for correclations.
+
+df.corr()
+
+however the correlation matrix is prone to all sorts of biases
+such as multicollinearity.
