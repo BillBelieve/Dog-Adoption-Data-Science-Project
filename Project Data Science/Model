@@ -17,4 +17,4 @@ when we have the model ready, we need to evaluate it.
 To evaluate the model we will use
 R2
 R2 adj
-MSE mean squared error. 
+MSE mean squared error.
