@@ -204,3 +204,10 @@ data1_bool["column"] = data1_bool["column"].astype(int)
 de bool naar een int veranderd.
 
 Daarna gechecked op missing data, en die is er niet. 
+
+De data is nu bijna klaar om naar de volgende fase te gaan, het modeleren.
+
+Ik heb nog de Y en de X gedefinieerd en een test run gemaakt om te zien of sklearn kan rekenen met de data, en dat is het geval.
+
+nu ga ik alleen nog de data splitten in train en test data.
+
