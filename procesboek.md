@@ -174,3 +174,33 @@ deze kwamen in een list
 nieuwe kolom[‘ time in rescure’ ] = list. 
 nu moet ik van Y de kolom time in rescue maken
 en aan X voeg ik de volgende variabelen toe;
+
+
+Maandag 5 december:
+
+begon met het verwijderen van de days_in_rescue values van 0 days aka honden die niet zijn geadopteerd, omdat ze niet deel zullen zijn van het model. dit is gelukt met de volgende uitdrukking: 
+
+df.drop(df[df.time_in_rescue == '0 days'].index, inplace=True)
+
+Daarna wilde ik de overgebleven resultaten herindexeren omdat er nu 432 rijen overblijven, maar de index is niet veranderd, dus de index van de 432e rij is 722. 
+
+dit dacht ik te doen door:
+
+new_index = np.arange(0,432)
+
+df = df.reindex(index=new_index)
+
+alleen dit zorgt ervoor dat ik het originele df terug krijg met nu das allemaal missing values. 
+skip voor nu
+
+ik heb de volgende bewerkingen gedaan om true naar 1 te veranderen en false naar 0
+
+eerst heb ik van alle kolommen met True, False, None gemerkt dat het string zijn
+verander voor alle data string naar np.bool
+daarna met de volgede regel code:
+
+data1_bool["column"] = data1_bool["column"].astype(int)
+
+de bool naar een int veranderd.
+
+Daarna gechecked op missing data, en die is er niet. 
