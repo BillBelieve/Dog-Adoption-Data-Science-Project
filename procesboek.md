@@ -230,3 +230,9 @@ net met wesley gesproken over mijn mogelijke beren op de weg,
 - hij vond de getransformeerde data er prima uit zien.
 
 best positief dus. 
+
+Ik heb vandaag gespeeld met verschillende soorten plots, en tot nu toe heb ik beschrijvende plots van de data toegevoegd 
+om een beeld te geven van de data subject.
+
+wat me verbaasde is dat de outcome variable niet normaal verdeelt is. 
+de outcome variabel heeft een log normal distribution
