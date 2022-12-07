@@ -236,3 +236,5 @@ om een beeld te geven van de data subject.
 
 wat me verbaasde is dat de outcome variable niet normaal verdeelt is. 
 de outcome variabel heeft een log normal distribution
+
+toegevoegd: visuele representaties van alle indep variables.
