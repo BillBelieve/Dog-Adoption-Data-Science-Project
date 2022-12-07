@@ -211,3 +211,22 @@ Ik heb nog de Y en de X gedefinieerd en een test run gemaakt om te zien of sklea
 
 nu ga ik alleen nog de data splitten in train en test data.
 
+
+
+woensdag 7 december
+
+ik heb een correlation matrix gemaakt van de variabelen die nog over zijn met time in rescue en ik heb een paar problemen:
+
+- er is geen 1 correlatie hoger dan 0.2 en 0.2 is al een weak correlation.
+- blijkbaar is er geen 1 hond declawed, daar kom ik nu pas achter en dit is dus geen bruikbaar variabel. 
+- ik kan geen plots maken met timedelta data wat mijn dependant variabel is. 
+- 
+
+omdat de leads die ik nu heb om mee te werken heel dun zijn ga ik alsnog breeds toevoegen aan het df om te kijken of het iets van verschil maakt. 
+
+net met wesley gesproken over mijn mogelijke beren op de weg, 
+- een lage correlatie is niet erg als er wel significantie is
+- het is niet erg om een model te hebben met een lage voorspellingswaarde
+- hij vond de getransformeerde data er prima uit zien.
+
+best positief dus. 
