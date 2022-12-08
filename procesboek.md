@@ -24,7 +24,7 @@ heel handig vind dat je de individuele cellen kunt runnen. dus bijv als ik een
 cel maak met data frame dan kan ik direct naar head() kijken zonder dat ik
 de rest van me code moet runnen. 
 
-** Probleem met het verwerken van de data: in mijn dataframe zitten JSON elementen die ik wil gebruiken voor mijn onderzoek. een voorbeeld hiervan is: **
+**Probleem met het verwerken van de data: in mijn dataframe zitten JSON elementen die ik wil gebruiken voor mijn onderzoek. een voorbeeld hiervan is:**
 
 > "{'spayed_neutered': 'True', 'house_trained': 'True', 'declawed': 'None', 'special_needs': 'False', 'shots_current': 'True'}"
 
