@@ -4,27 +4,27 @@ Project data science.
 De titel van mijn project is Dog adoption.
 De voortgang daarvan wortd hieronder ge-commit. -->
 
-### Processbook Data Science
+# Processbook Data Science
 ## dinsdag 29 november:
 
 - skelet voor het github project gemaakt
-            data transformation
-            F-test for significance of variables
-            test model
-            model
-            visualization of the results
+   data transformation
+   F-test for significance of variables
+   test model
+   model
+   visualization of the results
 
 in het begin vond ik het moeilijk om te bedenken wat er precies in zo’n skelet moet. Maar toen heb ik de module scikit-learn nog gemaakt van de Labs. en daaruit kreeg ik een redelijk idee welke stappen ik moet gaan doen om tot een goed onderzoek te komen. 
 
--[x] Github repository  werkbaar gemaakt en gebruik gemaakt van git add, commit en push. 
--[x] begin gemaakt met een jupyter notebook voor de data transformation.
+- [x] Github repository  werkbaar gemaakt en gebruik gemaakt van git add, commit en push. 
+- [x] begin gemaakt met een jupyter notebook voor de data transformation.
 
 Ik heb gekozen om het project in Jupyter notebook te doen omdat ik het
 heel handig vind dat je de individuele cellen kunt runnen. dus bijv als ik een
 cel maak met data frame dan kan ik direct naar head() kijken zonder dat ik
 de rest van me code moet runnen. 
 
-**Probleem met het verwerken van de data: in mijn dataframe zitten JSON elementen die ik wil gebruiken voor mijn onderzoek. een voorbeeld hiervan is: **
+** Probleem met het verwerken van de data: in mijn dataframe zitten JSON elementen die ik wil gebruiken voor mijn onderzoek. een voorbeeld hiervan is: **
 
 > "{'spayed_neutered': 'True', 'house_trained': 'True', 'declawed': 'None', 'special_needs': 'False', 'shots_current': 'True'}"
 
@@ -176,7 +176,9 @@ Ik heb ook vrij veel gegoogled naar de docs van de module, web3 pagina en geeks 
 Toen kwam ik 1 voorbeeld code tegen die in plaats van %Y/%m/%d -> %Y-%m-%d
 en toen realiseerde me ik me hoe ik de syntax error kon laten stoppen. 
 
+```python
 datetime.datetime.strptime(time_in[0:10], "%Y-%m-%d")
+```
 
 Dit was uiteindelijk het haalbaarste. Ik heb geprobeerd om uren toe te voegen, alleen dat werd weer ingewikkeld en toen besloot ik om als outcome variabele dagen te hebben. Omdat het niet per se gaat om de tijd waarop een hond wordt geadopteerd, dat is vrij arbitrair en kan meer noise veroorzaken in mijn model. dus daarom gekozen voor y-m-d en uren/minuten/seconde laten vallen. 
 
@@ -252,4 +254,6 @@ toegevoegd: visuele representaties van alle indep variables.
 
 ## donderdag 8 decemeber
 
--[x] markdown code toegevoegd om dit procesboek leesbaar te maken.
+- [x] markdown code toegevoegd om dit procesboek leesbaar te maken.
+- [x] procesboek bekeken in github
+- [x] incorrecte markdown verbeterd
