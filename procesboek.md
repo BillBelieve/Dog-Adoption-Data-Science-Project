@@ -257,3 +257,15 @@ toegevoegd: visuele representaties van alle indep variables.
 - [x] markdown code toegevoegd om dit procesboek leesbaar te maken.
 - [x] procesboek bekeken in github
 - [x] incorrecte markdown verbeterd
+
+## Maandag 12 december
+
+doel van vandaag is om een beta versie te hebben van het project
+
+todo:
+- [x] split training and test data
+- [x] train model on training set
+- [x] predict test set result 
+- [x] evaluate model
+- [x] plot results
+- [x] predicted values
