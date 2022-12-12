@@ -269,3 +269,18 @@ todo:
 - [x] evaluate model
 - [x] plot results
 - [x] predicted values
+
+splitting the data i chose and arbitrary number and now the train data is larger than the test data. 
+Should discuss this with the TA's to get their opinion.
+
+my model is disregardably weak with a r2 of lower than 0.1. 
+the model cannot predict accurate results for y variable 
+
+ive added a second model with statsmodel.api to get a good summary of all model statistics.
+
+even though this one also showed a low R2.
+i did have significant p scores for the following variables:
+- house trained
+- special needs
+- shots current
+- socialized with children.
