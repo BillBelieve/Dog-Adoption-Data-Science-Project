@@ -284,3 +284,26 @@ i did have significant p scores for the following variables:
 - special needs
 - shots current
 - socialized with children.
+
+## Woensdag 14 december
+
+Met Wesley besproken wat ik tot nu toe heb gedaan en of ik nog iets zou kunnen toevoegen voordat ik vanavond de beta versie inlever.
+
+
+was eerst bezig met het polymodel van week6 van de opdrachten proberen te vertalen naar mijn project, maar liep steeds tegen errors aan en realiseerde me toen dat het poly model in week 6 maar met 1 x en 1 y is en ik heb meerdere x'en.
+
+toen ging ik opzoek naar een multivariate polynomial model op internet en kwam deze code tegen:
+
+https://enjoymachinelearning.com/blog/multivariate-polynomial-regression-python/
+
+in eerste instantie de code domweg gekopieerd en ingevuld met mijn variabelen om te kijken of het werkt. 
+dat doet het.
+
+in de 2e stap van dit model kijken ze bij welke degrees of freedom er de laagste mean square is.
+ik dacht omdat ik 8 variabelen heb zal de optimale DF wel 8 zijn,
+maar tot mijn verbazing kreeg ik terug dat 3 de meest optimale DF is,
+en als je erover nadenkt is dat super logisch, want uit mijn vorige model kwam dat er maar 3, misschien 4 variabelen zijn die significant zijn.
+
+ik ga het model dus overnieuw maken maar dan met alleen de significante variabelen om te kijken of ik dan misschien een hogere R2 kan realiseren voor het polymodel. 
+
+het domweg invullen van model dat ik op internet vond heb ik net gepushed en ga ik nu veranderen zoals hierboven vermeld. 

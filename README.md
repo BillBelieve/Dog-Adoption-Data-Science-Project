@@ -71,7 +71,6 @@ pandas 		- for making the data frame, and cleaning the dataset.
 scikit-learn 	- for performing statistical tests, and checking the assumptions of the model. 
 
 ### resources:
-
 ASPCA. Characteristics, Challenges of the Shelter Environment. (2020, 28 april). ASPCApro. https://www.aspcapro.org/characteristics-challenges-shelter-environment
 
 Huang, Y. (2022, 7 januari). Animal Adoption-How Data Science Can be Used to Help Animals in Shelter? Medium. https://e-82849.medium.com/animal-adoption-how-data-science-can-be-used-to-help-animals-in-shelter-30b980db7403
