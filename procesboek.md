@@ -307,3 +307,19 @@ en als je erover nadenkt is dat super logisch, want uit mijn vorige model kwam d
 ik ga het model dus overnieuw maken maar dan met alleen de significante variabelen om te kijken of ik dan misschien een hogere R2 kan realiseren voor het polymodel. 
 
 het domweg invullen van model dat ik op internet vond heb ik net gepushed en ga ik nu veranderen zoals hierboven vermeld. 
+
+
+nieuw idee voor een model:
+
+bereken de gemiddelde tijd die een hond in het asiel zit voordat hij word opgehaald.
+maak colom met honden die nog niet geadopteerd zijn en al langer dan gemiddeld in het asiel zitten.
+en maak colom van honden die korter dan gemiddeld in het asiel zitten
+
+doe dan multivariate logisitic regression.
+
+Ik heb een tijdje getwijfeld over dit idee, maar vooral omdat ik heel veel binary variabelen heb
+het probleem is alleen dat logistic regression over een binary outcome variable gaat.
+
+Daardoor heb ik toch besloten om het niet te doen, en het bij een polynomial model te laten voor de beta versie push
+
+aankomende dagen ga ik mijn bestand opschonen en teksten bij de worksheet zetten waardoor je het volledig als een verslag kan lezen.  
