@@ -1,6 +1,11 @@
 # Dog Adoption Data Science Project
 The animal rescue industry will be aided in efficiency through this epic quest for a high R^2
 
+## Screencast
+[![Watch the video]](https://video.uva.nl/media/screencast%20datascience%20tom%20zeeuwe/0_jtny0yal)
+
+if the embedded video does not work, the screen cast is available at https://video.uva.nl/media/screencast%20datascience%20tom%20zeeuwe/0_jtny0yal
+
 ## problem statement:
 The operation of running an independent animal shelter is dependent on optimizing the relocation of stray, runaway, or surrendered pets. There are a large number of animals in the system, and the longer they stay in rescue, the more undesirable behavioral traits they establish. If the animal care system is run inefficiently, a larger share of the animals have to be euthanized. While they could have found a new home and had a good life. 
 
