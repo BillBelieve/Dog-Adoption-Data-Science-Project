@@ -8,3 +8,13 @@
 - over het algemeen: leuk onderwerp en goed uitgevoerd, en je code is netjes. een korte uitleg bij elk stukje code zou het voor mij helemaal compleet maken.
 
 gereviewed door Skip.
+
+
+
+CODE REVIEW PHASE II
+1. plots voorzien van meer informatie en interpretatie
+2. motivatie -> included problem statement in the header of worksheet. 
+3. toegevoegd hoeveel honden er in de data set zitten.
+4. toegevoegd wat ik waarom doe qua kolommen verwijderen en toevoegen.
+5. correlation matrix info en interpretatie toegevoegd. 
+6. de te adopteren honden eerder verwijderen heb ik geprobeerd, maar als ik dat doe dan werken de JSON unpackers niet goed meer. 

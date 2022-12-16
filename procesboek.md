@@ -332,3 +332,5 @@ We hebben de review digitaal gedaan omdat skip ziek was en vanuit huis werkte.
 ik ben voor nu overal markdown tekst aan het toevoegen. 
 en het bestand presentabel maken
 Nog een aantal cellen verwijdert die ik zelf heb gebruikt om dingen te testen. 
+
+Nu helemaal klaar met markdown text toevoegen aan de Jupyter notebook.

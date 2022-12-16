@@ -70,6 +70,14 @@ matplotlib 	- for making diagrams, graphs, and any other visualization of the da
 pandas 		- for making the data frame, and cleaning the dataset. 
 scikit-learn 	- for performing statistical tests, and checking the assumptions of the model. 
 
+### borrowed code
+
+for the polynomial model:
+https://enjoymachinelearning.com/blog/multivariate-polynomial-regression-python/
+https://enjoymachinelearning.com/blog/multivariate-polynomial-regression-python/
+
+
+
 ### resources:
 ASPCA. Characteristics, Challenges of the Shelter Environment. (2020, 28 april). ASPCApro. https://www.aspcapro.org/characteristics-challenges-shelter-environment
 
