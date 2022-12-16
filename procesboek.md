@@ -323,3 +323,12 @@ het probleem is alleen dat logistic regression over een binary outcome variable 
 Daardoor heb ik toch besloten om het niet te doen, en het bij een polynomial model te laten voor de beta versie push
 
 aankomende dagen ga ik mijn bestand opschonen en teksten bij de worksheet zetten waardoor je het volledig als een verslag kan lezen.  
+
+## vrijdag 16 December
+
+Vannochtend samen met Skip de code review gedaan.
+We hebben de review digitaal gedaan omdat skip ziek was en vanuit huis werkte. 
+
+ik ben voor nu overal markdown tekst aan het toevoegen. 
+en het bestand presentabel maken
+Nog een aantal cellen verwijdert die ik zelf heb gebruikt om dingen te testen. 
